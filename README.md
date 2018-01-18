@@ -1,8 +1,5 @@
 ## 百度移动统计Cordova Demo
-本demo目前仅包含iOS的使用过程，安卓版本正在开发中，敬请期待。
-
-使用步骤
-
+### iOS
 1. clone此代码库，并运行
 
   ```
@@ -24,3 +21,36 @@
 
   ```
 5. 运行并调试
+
+### Android
+1. clone此代码库，并运行
+	
+	```
+  	cordova platform add android
+  	cordova prepare
+  	```
+	
+2. 配置appkey
+ 	
+ 	修改`AndroidManifest.xml`中appkey为自己的appkey：
+ 	
+ 	```
+ 	<meta-data android:name="BaiduMobAd_STAT_ID" android:value="替换key" />
+ 	```
+
+3. 运行
+	
+	```
+  	cordova run android
+  	```
+	
+4. 调试
+	
+	需要在java代码中打开调试开关：
+	
+	```
+	StatService.setDebugOn(true);
+	```
+	
+	可以通过 `adb logcat -s sdkstat` 确认统计日志发送成功到服务器，logcat显示 `send log data over. result = true;`即发送成功。 
+	
