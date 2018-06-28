@@ -5,5 +5,4 @@ bin/*
 !/plugins/android.json
 !/plugins/fetch.json
 plugins/*
-platforms/*
 node_modules
