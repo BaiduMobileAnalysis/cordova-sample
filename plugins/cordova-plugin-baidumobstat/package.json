@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-baidumobstat",
+        "scope": null,
+        "escapedName": "cordova-plugin-baidumobstat",
+        "name": "cordova-plugin-baidumobstat",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/baidu/Desktop/hello"
+    ]
+  ],
+  "_cnpm_publish_time": 1516247202031,
+  "_from": "cordova-plugin-baidumobstat@latest",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-baidumobstat@1.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-baidumobstat",
+  "_nodeVersion": "9.2.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-baidumobstat-1.2.3.tgz_1516247201813_0.5301376997958869"
+  },
+  "_npmUser": {
+    "name": "baidumobstat",
+    "email": "apptongji@outlook.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-baidumobstat",
+    "scope": null,
+    "escapedName": "cordova-plugin-baidumobstat",
+    "name": "cordova-plugin-baidumobstat",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/cordova-plugin-baidumobstat/download/cordova-plugin-baidumobstat-1.2.3.tgz",
+  "_shasum": "86f3eef03129d8a4cd329299da17fee56a6b2262",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-baidumobstat",
+  "_where": "/Users/baidu/Desktop/hello",
+  "author": {
+    "name": "Rurui Ye, Jie Yang"
+  },
+  "bugs": {
+    "url": "https://github.com/BaiduMobileAnalysis/cordova-plugin/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-baidumobstat",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Plugin For Baidu Mobile Analysis",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "86f3eef03129d8a4cd329299da17fee56a6b2262",
+    "size": 7697,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/cordova-plugin-baidumobstat/download/cordova-plugin-baidumobstat-1.2.3.tgz"
+  },
+  "gitHead": "5dba229f9a5ce266f21cb1e0583b04198e65850a",
+  "homepage": "https://github.com/BaiduMobileAnalysis/cordova-plugin#readme",
+  "keywords": [
+    "cordova",
+    "Baidu Mobile Analysis",
+    "BaiduMobStat",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "Apache License 2.0",
+  "maintainers": [
+    {
+      "name": "baidumobstat",
+      "email": "apptongji@outlook.com"
+    }
+  ],
+  "name": "cordova-plugin-baidumobstat",
+  "optionalDependencies": {},
+  "publish_time": 1516247202031,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaiduMobileAnalysis/cordova-plugin.git"
+  },
+  "version": "1.2.3"
+}
