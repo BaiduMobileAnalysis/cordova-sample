@@ -22,9 +22,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <preference name="pods_ios_min_version" value="8.0" />
-        <pod id="BaiduMobStat" />
     </platform>
-    <plugin name="cordova-plugin-cocoapod-support" spec="~1.2.14" />
-    <plugin name="cordova-plugin-baidumobstat" spec="~1.0.0" />
+    <engine name="ios" spec="~4.5.4" />
+    <plugin name="cordova-plugin-baidumobstat" spec="^1.2.3" />
 </widget>
