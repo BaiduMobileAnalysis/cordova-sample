@@ -1,26 +1,9 @@
 ## 百度移动统计Cordova Demo
 ### iOS
-1. clone此代码库，并运行
-
-  ```
-  cordova platform add ios
-  cordova prepare
-  ```  
+1. clone此代码库
 2. 打开$(home)/platforms/ios/HelloWorld.xcworkspace
-3. 打开`AppDelegate.m`
-4. 修改代码，引入`#import "BaiduMobStat.h"`
-
-  ```objc 
-    - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
-    {
-        [[BaiduMobStat defaultStat] startWithAppId:@"xxx"];
-        [[BaiduMobStat defaultStat] setEnableDebugOn:YES];
-        self.viewController = [[MainViewController alloc] init];
-        return [super application:application didFinishLaunchingWithOptions:launchOptions];
-    }
-
-  ```
-5. 运行并调试
+3. 工程中已经集成了MTJ的SDK，以及百度移动统计Cordova插件，可以直接运行调试
+4. JS Api调用示例，请查看$(home)/www/js/index.js 文件。
 
 ### Android
 1. clone此代码库，并运行
